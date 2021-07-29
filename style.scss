@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+  
+
+    
+}
+
+
+@import "front-end/sass/layout/header";
+@import "front-end/sass/layout/main";
+@import "front-end/sass/layout/footer";
+@import "front-end/sass/layout/fiche produits";
+@import "front-end/sass/layout/panier";

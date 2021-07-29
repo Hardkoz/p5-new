@@ -1,0 +1,64 @@
+@media screen and (max-width: 429px){
+.en-tete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 40vw;
+    height: 20vw;
+}
+
+.panier{
+    text-decoration: none;
+    color: black;
+}
+}
+
+@media screen and (min-width: 430px) and (max-width: 1025px){
+    .en-tete{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0% 5%;
+    }
+    .logo{
+        width: 30vw;
+        height: 15vw;
+        
+    }
+    
+    .panier{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        
+    } 
+}
+
+@media screen and (min-width: 1026px) and (max-width: 2560px){
+    .en-tete{
+        display: flex;
+        justify-content: space-around;
+        margin: 2%;
+        
+        align-items: center;
+    }
+    .logo{
+        width: 15vw;
+        height: 7.5vw;
+        margin: 5%;
+    }
+    
+    .panier{
+        text-decoration: none;
+        color: black;
+        font-size: larger;
+        margin: 5%;
+    } 
+}
+
+
+
+
+
