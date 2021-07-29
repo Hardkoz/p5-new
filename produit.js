@@ -47,10 +47,8 @@ let response = fetch(`http://localhost:3000/api/cameras/${produitId}`)
     const ajoutPanier = () => {
       let cart = []
       const storageCart = localStorage.getItem('cart')
-      if (storageCart === null) {
-        cart = []
-      } else {
-        cart = JSON.parse("storageCart");
+      if (storageCart !== null) {
+        cart = JSON.parse(storageCart);
       }
 
       cart.push(produitId);
